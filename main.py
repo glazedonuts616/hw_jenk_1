@@ -6,6 +6,13 @@ current_datetime = datetime.now()
 current_date = current_datetime.date()
 current_time = current_datetime.time()
 
+
+# Format the time to display only hours and minutes and current day
+formatted_time = current_datetime.strftime("%H:%M:%S")
+
+current_day = current_datetime.strftime("%A")
 # Print the current date and time
-print("Current date:", current_date)
-print("Current time:", current_time)
+
+print("The Current date:", current_date)
+print("Current time:", formatted_time)
+print("Today is:", current_day)
