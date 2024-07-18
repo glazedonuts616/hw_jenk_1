@@ -17,3 +17,6 @@ print("The Current date:", current_date)
 print("Current time:", formatted_time)
 print("Today is:", current_day)
 print('Automatic update change! This is cool!')
+
+
+print("Adding requirements")
